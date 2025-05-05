@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[
+			@Name="ADS_Cat3" or
+			@Name="ADS_Cat2" or
+			@Name="ADS_Cat1"
+			]/recipeUsers</xpath>
+		<value>
+			<li>Grimstone_Belloceros</li>
+			<li>Grimstone_Griffar</li>
+			<li>Grimstone_Grimshadow</li>
+			<li>Grimstone_NorthernLynx</li>
+			<li>Grimstone_Sheepdog</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[
+			@Name="ADS_Cat2" or
+			@Name="ADS_Cat1"
+			]/recipeUsers</xpath>
+		<value>
+			<li>Grimstone_EmporerVulture</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[
+			@Name="ADS_Cat1"
+			]/recipeUsers</xpath>
+		<value>
+			<li>Grimstone_Tetras</li>
+		</value>
+	</Operation>
+</Patch>
