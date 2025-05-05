@@ -1,37 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
+	
+	<!-- Belloceros -->
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/RecipeDef[
-			@Name="ADS_Cat3" or
-			@Name="ADS_Cat2" or
-			@Name="ADS_Cat1"
-			]/recipeUsers</xpath>
-		<value>
-			<li>Grimstone_Belloceros</li>
-			<li>Grimstone_Griffar</li>
-			<li>Grimstone_Grimshadow</li>
-			<li>Grimstone_NorthernLynx</li>
-			<li>Grimstone_Sheepdog</li>
-		</value>
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_Belloceros</li>
+				</value>
 	</Operation>
 	
+	<!-- EmporerVulture -->
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/RecipeDef[
-			@Name="ADS_Cat2" or
-			@Name="ADS_Cat1"
-			]/recipeUsers</xpath>
-		<value>
-			<li>Grimstone_EmporerVulture</li>
-		</value>
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_EmporerVulture</li>
+				</value>
 	</Operation>
 	
+	<!-- Griffar -->
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/RecipeDef[
-			@Name="ADS_Cat1"
-			]/recipeUsers</xpath>
-		<value>
-			<li>Grimstone_Tetras</li>
-		</value>
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_Griffar</li>
+				</value>
 	</Operation>
+	
+	<!-- Grimshadow -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_Grimshadow</li>
+				</value>
+	</Operation>
+	
+	<!-- NorthernLynx -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_NorthernLynx</li>
+				</value>
+	</Operation>
+	
+	<!-- Sheepdog -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_Sheepdog</li>
+				</value>
+	</Operation>
+	
+	<!-- Tetras -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>Grimstone_Tetras</li>
+				</value>
+	</Operation>
+	
 </Patch>
